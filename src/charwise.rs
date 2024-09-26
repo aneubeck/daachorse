@@ -84,7 +84,7 @@ impl<V> CharwiseDoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::CharwiseDoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["全世界", "世界", "に"];
     /// let pma = CharwiseDoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -126,7 +126,7 @@ impl<V> CharwiseDoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::CharwiseDoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasick;
     ///
     /// let patvals = vec![("全世界", 0), ("世界", 10), ("に", 100)];
     /// let pma = CharwiseDoubleArrayAhoCorasick::with_values(patvals).unwrap();
@@ -164,7 +164,7 @@ impl<V> CharwiseDoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::CharwiseDoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["全世界", "世界", "に"];
     /// let pma = CharwiseDoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -211,7 +211,7 @@ impl<V> CharwiseDoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::CharwiseDoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["全世界", "世界", "に"];
     /// let pma = CharwiseDoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -256,7 +256,7 @@ impl<V> CharwiseDoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::CharwiseDoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["全世界", "世界", "に"];
     /// let pma = CharwiseDoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -312,7 +312,7 @@ impl<V> CharwiseDoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::CharwiseDoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["全世界", "世界", "に"];
     /// let pma = CharwiseDoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -372,7 +372,7 @@ impl<V> CharwiseDoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::CharwiseDoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["全世界", "世界", "に"];
     /// let pma = CharwiseDoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -429,7 +429,7 @@ impl<V> CharwiseDoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::CharwiseDoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["全世界", "世界", "に"];
     /// let pma = CharwiseDoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -493,7 +493,7 @@ impl<V> CharwiseDoubleArrayAhoCorasick<V> {
     /// ## LeftmostLongest
     ///
     /// ```
-    /// use daachorse::{CharwiseDoubleArrayAhoCorasickBuilder, MatchKind};
+    /// use aneubeck_daachorse::{CharwiseDoubleArrayAhoCorasickBuilder, MatchKind};
     ///
     /// let patterns = vec!["世界", "世", "世界中に"];
     /// let pma = CharwiseDoubleArrayAhoCorasickBuilder::new()
@@ -512,7 +512,7 @@ impl<V> CharwiseDoubleArrayAhoCorasick<V> {
     /// ## LeftmostFirst
     ///
     /// ```
-    /// use daachorse::{CharwiseDoubleArrayAhoCorasickBuilder, MatchKind};
+    /// use aneubeck_daachorse::{CharwiseDoubleArrayAhoCorasickBuilder, MatchKind};
     ///
     /// let patterns = vec!["世界", "世", "世界中に"];
     /// let pma = CharwiseDoubleArrayAhoCorasickBuilder::new()
@@ -547,7 +547,7 @@ impl<V> CharwiseDoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::CharwiseDoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["bcd", "ab", "a"];
     /// let pma = CharwiseDoubleArrayAhoCorasick::<usize>::new(patterns).unwrap();
@@ -564,7 +564,7 @@ impl<V> CharwiseDoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::CharwiseDoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["bcd", "ab", "a"];
     /// let pma = CharwiseDoubleArrayAhoCorasick::<usize>::new(patterns).unwrap();
@@ -581,7 +581,7 @@ impl<V> CharwiseDoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::CharwiseDoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["bcd", "ab", "a"];
     /// let pma = CharwiseDoubleArrayAhoCorasick::<u32>::new(patterns).unwrap();
@@ -600,7 +600,7 @@ impl<V> CharwiseDoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::CharwiseDoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["全世界", "世界", "に"];
     /// let pma = CharwiseDoubleArrayAhoCorasick::<u32>::new(patterns).unwrap();
@@ -644,7 +644,7 @@ impl<V> CharwiseDoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::CharwiseDoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["全世界", "世界", "に"];
     /// let pma = CharwiseDoubleArrayAhoCorasick::<u32>::new(patterns).unwrap();

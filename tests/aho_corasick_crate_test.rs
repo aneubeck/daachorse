@@ -1,4 +1,4 @@
-use daachorse::{
+use aneubeck_daachorse::{
     CharwiseDoubleArrayAhoCorasickBuilder, DoubleArrayAhoCorasickBuilder, Match, MatchKind,
 };
 

@@ -78,7 +78,7 @@ impl<V> DoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::DoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::DoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["bcd", "ab", "a"];
     /// let pma = DoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -120,7 +120,7 @@ impl<V> DoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::DoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::DoubleArrayAhoCorasick;
     ///
     /// let patvals = vec![("bcd", 0), ("ab", 1), ("a", 2), ("e", 1)];
     /// let pma = DoubleArrayAhoCorasick::with_values(patvals).unwrap();
@@ -161,7 +161,7 @@ impl<V> DoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::DoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::DoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["bcd", "ab", "a"];
     /// let pma = DoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -204,7 +204,7 @@ impl<V> DoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::DoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::DoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["bcd", "ab", "a"];
     /// let pma = DoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -249,7 +249,7 @@ impl<V> DoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::DoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::DoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["bcd", "ab", "a"];
     /// let pma = DoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -306,7 +306,7 @@ impl<V> DoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::DoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::DoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["bcd", "ab", "a"];
     /// let pma = DoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -363,7 +363,7 @@ impl<V> DoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::DoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::DoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["bcd", "cd", "abc"];
     /// let pma = DoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -416,7 +416,7 @@ impl<V> DoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::DoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::DoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["bcd", "cd", "abc"];
     /// let pma = DoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -480,7 +480,7 @@ impl<V> DoubleArrayAhoCorasick<V> {
     /// ## LeftmostLongest
     ///
     /// ```
-    /// use daachorse::{DoubleArrayAhoCorasickBuilder, MatchKind};
+    /// use aneubeck_daachorse::{DoubleArrayAhoCorasickBuilder, MatchKind};
     ///
     /// let patterns = vec!["ab", "a", "abcd"];
     /// let pma = DoubleArrayAhoCorasickBuilder::new()
@@ -499,7 +499,7 @@ impl<V> DoubleArrayAhoCorasick<V> {
     /// ## LeftmostFirst
     ///
     /// ```
-    /// use daachorse::{DoubleArrayAhoCorasickBuilder, MatchKind};
+    /// use aneubeck_daachorse::{DoubleArrayAhoCorasickBuilder, MatchKind};
     ///
     /// let patterns = vec!["ab", "a", "abcd"];
     /// let pma = DoubleArrayAhoCorasickBuilder::new()
@@ -534,7 +534,7 @@ impl<V> DoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::DoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::DoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["bcd", "ab", "a"];
     /// let pma = DoubleArrayAhoCorasick::<u32>::new(patterns).unwrap();
@@ -552,7 +552,7 @@ impl<V> DoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::DoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::DoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["bcd", "ab", "a"];
     /// let pma = DoubleArrayAhoCorasick::<usize>::new(patterns).unwrap();
@@ -569,7 +569,7 @@ impl<V> DoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::DoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::DoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["bcd", "ab", "a"];
     /// let pma = DoubleArrayAhoCorasick::<u32>::new(patterns).unwrap();
@@ -611,7 +611,7 @@ impl<V> DoubleArrayAhoCorasick<V> {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::DoubleArrayAhoCorasick;
+    /// use aneubeck_daachorse::DoubleArrayAhoCorasick;
     ///
     /// let patterns = vec!["bcd", "ab", "a"];
     /// let pma = DoubleArrayAhoCorasick::<u32>::new(patterns).unwrap();

@@ -4,7 +4,7 @@ use std::path::PathBuf;
 use std::str::FromStr;
 
 use clap::Parser;
-use daachorse::{DoubleArrayAhoCorasick, Empty};
+use aneubeck_daachorse::{DoubleArrayAhoCorasick, Empty};
 use termcolor::{Color, ColorChoice, ColorSpec, StandardStream, WriteColor};
 
 #[derive(Clone, Copy, Debug)]

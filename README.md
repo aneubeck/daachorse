@@ -1,5 +1,10 @@
 # 🐎 daachorse: Double-Array Aho-Corasick
 
+> **⚠ CAUTION ⚠**
+> This is a personal fork to publish changes that have not been merged into the upstream repository.
+> It is only published to allow a dependent crate to be published. It is meant as a personal fork and
+> not recommended for general use.
+
 A fast implementation of the Aho-Corasick algorithm using the compact double-array data structure.
 
 [![Crates.io](https://img.shields.io/crates/v/daachorse)](https://crates.io/crates/daachorse)
@@ -54,7 +59,7 @@ unique identifier to each pattern in the input order. The match result has the b
 the occurrence and its identifier.
 
 ```rust
-use daachorse::DoubleArrayAhoCorasick;
+use aneubeck_daachorse::DoubleArrayAhoCorasick;
 
 let patterns = vec!["bcd", "ab", "a"];
 let pma = DoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -80,7 +85,7 @@ It performs the search on the Aho-Corasick automaton
 and reports patterns first found in each iteration.
 
 ```rust
-use daachorse::DoubleArrayAhoCorasick;
+use aneubeck_daachorse::DoubleArrayAhoCorasick;
 
 let patterns = vec!["bcd", "ab", "a"];
 let pma = DoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -102,7 +107,7 @@ If you want to search for the longest pattern without positional overlap in each
 `leftmost_find_iter()` with specifying `MatchKind::LeftmostLongest` in the construction.
 
 ```rust
-use daachorse::{DoubleArrayAhoCorasickBuilder, MatchKind};
+use aneubeck_daachorse::{DoubleArrayAhoCorasickBuilder, MatchKind};
 
 let patterns = vec!["ab", "a", "abcd"];
 let pma = DoubleArrayAhoCorasickBuilder::new()
@@ -128,7 +133,7 @@ This is the so-called *leftmost first match*, a tricky search option supported i
 code, `ab` is reported because it is the earliest registered one.
 
 ```rust
-use daachorse::{DoubleArrayAhoCorasickBuilder, MatchKind};
+use aneubeck_daachorse::{DoubleArrayAhoCorasickBuilder, MatchKind};
 
 let patterns = vec!["ab", "a", "abcd"];
 let pma = DoubleArrayAhoCorasickBuilder::new()
@@ -150,7 +155,7 @@ To build the automaton from pairs of a pattern and user-defined value, instead o
 automatically, use `with_values()`.
 
 ```rust
-use daachorse::DoubleArrayAhoCorasick;
+use aneubeck_daachorse::DoubleArrayAhoCorasick;
 
 let patvals = vec![("bcd", 0), ("ab", 10), ("a", 20)];
 let pma = DoubleArrayAhoCorasick::with_values(patvals).unwrap();
@@ -178,7 +183,7 @@ transition labels using byte values. On the other hand, `CharwiseDoubleArrayAhoC
 Unicode code point values, reducing the number of transitions and faster matching.
 
 ```rust
-use daachorse::CharwiseDoubleArrayAhoCorasick;
+use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasick;
 
 let patterns = vec!["全世界", "世界", "に"];
 let pma = CharwiseDoubleArrayAhoCorasick::new(patterns).unwrap();

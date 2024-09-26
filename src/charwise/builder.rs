@@ -35,7 +35,7 @@ impl CharwiseDoubleArrayAhoCorasickBuilder {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::CharwiseDoubleArrayAhoCorasickBuilder;
+    /// use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasickBuilder;
     ///
     /// let patterns = vec!["全世界", "世界", "に"];
     ///
@@ -113,7 +113,7 @@ impl CharwiseDoubleArrayAhoCorasickBuilder {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::CharwiseDoubleArrayAhoCorasickBuilder;
+    /// use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasickBuilder;
     ///
     /// let patterns = vec!["全世界", "世界", "に"];
     /// let pma = CharwiseDoubleArrayAhoCorasickBuilder::new()
@@ -165,7 +165,7 @@ impl CharwiseDoubleArrayAhoCorasickBuilder {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::CharwiseDoubleArrayAhoCorasickBuilder;
+    /// use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasickBuilder;
     ///
     /// let patvals = vec![("全世界", 0), ("世界", 10), ("に", 100)];
     /// let pma = CharwiseDoubleArrayAhoCorasickBuilder::new()

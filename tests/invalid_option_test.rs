@@ -1,4 +1,4 @@
-use daachorse::{DoubleArrayAhoCorasick, DoubleArrayAhoCorasickBuilder};
+use aneubeck_daachorse::{DoubleArrayAhoCorasick, DoubleArrayAhoCorasickBuilder};
 
 #[test]
 fn test_large_num_free_blocks() {

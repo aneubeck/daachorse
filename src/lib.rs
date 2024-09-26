@@ -30,7 +30,7 @@
 //! occurrence and its identifier.
 //!
 //! ```
-//! use daachorse::DoubleArrayAhoCorasick;
+//! use aneubeck_daachorse::DoubleArrayAhoCorasick;
 //!
 //! let patterns = vec!["bcd", "ab", "a"];
 //! let pma = DoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -58,7 +58,7 @@
 //! found in each iteration.
 //!
 //! ```
-//! use daachorse::DoubleArrayAhoCorasick;
+//! use aneubeck_daachorse::DoubleArrayAhoCorasick;
 //!
 //! let patterns = vec!["bcd", "ab", "a"];
 //! let pma = DoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -81,7 +81,7 @@
 //! [`MatchKind::LeftmostLongest`] in the construction.
 //!
 //! ```
-//! use daachorse::{DoubleArrayAhoCorasickBuilder, MatchKind};
+//! use aneubeck_daachorse::{DoubleArrayAhoCorasickBuilder, MatchKind};
 //!
 //! let patterns = vec!["ab", "a", "abcd"];
 //! let pma = DoubleArrayAhoCorasickBuilder::new()
@@ -108,7 +108,7 @@
 //! following code, `ab` is reported because it is the earliest registered one.
 //!
 //! ```
-//! use daachorse::{DoubleArrayAhoCorasickBuilder, MatchKind};
+//! use aneubeck_daachorse::{DoubleArrayAhoCorasickBuilder, MatchKind};
 //!
 //! let patterns = vec!["ab", "a", "abcd"];
 //! let pma = DoubleArrayAhoCorasickBuilder::new()
@@ -130,7 +130,7 @@
 //! identifiers automatically, use [`DoubleArrayAhoCorasick::with_values()`].
 //!
 //! ```
-//! use daachorse::DoubleArrayAhoCorasick;
+//! use aneubeck_daachorse::DoubleArrayAhoCorasick;
 //!
 //! let patvals = vec![("bcd", 0), ("ab", 10), ("a", 20)];
 //! let pma = DoubleArrayAhoCorasick::with_values(patvals).unwrap();
@@ -159,7 +159,7 @@
 //! Unicode code point values, reducing the number of transitions and faster matching.
 //!
 //! ```
-//! use daachorse::CharwiseDoubleArrayAhoCorasick;
+//! use aneubeck_daachorse::CharwiseDoubleArrayAhoCorasick;
 //!
 //! let patterns = vec!["全世界", "世界", "に"];
 //! let pma = CharwiseDoubleArrayAhoCorasick::new(patterns).unwrap();
@@ -402,7 +402,7 @@ impl Serializable for MatchKind {
 /// # Example
 ///
 /// ```
-/// use daachorse::{DoubleArrayAhoCorasick, Empty};
+/// use aneubeck_daachorse::{DoubleArrayAhoCorasick, Empty};
 ///
 /// let patterns = vec!["bcd", "ab", "a"];
 /// let pma = DoubleArrayAhoCorasick::<Empty>::new(patterns).unwrap();

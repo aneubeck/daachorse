@@ -35,7 +35,7 @@ impl DoubleArrayAhoCorasickBuilder {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::DoubleArrayAhoCorasickBuilder;
+    /// use aneubeck_daachorse::DoubleArrayAhoCorasickBuilder;
     ///
     /// let builder = DoubleArrayAhoCorasickBuilder::new();
     ///
@@ -70,7 +70,7 @@ impl DoubleArrayAhoCorasickBuilder {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::{DoubleArrayAhoCorasickBuilder, MatchKind};
+    /// use aneubeck_daachorse::{DoubleArrayAhoCorasickBuilder, MatchKind};
     ///
     /// let patterns = vec!["ab", "abcd"];
     /// let pma = DoubleArrayAhoCorasickBuilder::new()
@@ -134,7 +134,7 @@ impl DoubleArrayAhoCorasickBuilder {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::DoubleArrayAhoCorasickBuilder;
+    /// use aneubeck_daachorse::DoubleArrayAhoCorasickBuilder;
     ///
     /// let builder = DoubleArrayAhoCorasickBuilder::new();
     ///
@@ -186,7 +186,7 @@ impl DoubleArrayAhoCorasickBuilder {
     /// # Examples
     ///
     /// ```
-    /// use daachorse::DoubleArrayAhoCorasickBuilder;
+    /// use aneubeck_daachorse::DoubleArrayAhoCorasickBuilder;
     ///
     /// let builder = DoubleArrayAhoCorasickBuilder::new();
     ///

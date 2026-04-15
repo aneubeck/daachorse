@@ -330,6 +330,7 @@ where
 }
 
 /// Stepper created by [`CharwiseDoubleArrayAhoCorasick::find_stepper()`].
+#[derive(Clone, Copy)]
 pub struct FindStepper<'a, V> {
     pub(crate) pma: &'a CharwiseDoubleArrayAhoCorasick<V>,
     pub(crate) state_id: u32,
@@ -406,6 +407,7 @@ where
 }
 
 /// Stepper created by [`CharwiseDoubleArrayAhoCorasick::find_overlapping_stepper()`].
+#[derive(Clone, Copy)]
 pub struct FindOverlappingStepper<'a, V> {
     pub(crate) pma: &'a CharwiseDoubleArrayAhoCorasick<V>,
     pub(crate) state_id: u32,
